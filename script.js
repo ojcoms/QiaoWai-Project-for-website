@@ -11,7 +11,7 @@ function load_video(){
 	//video.setAttribute('data-v-5c8f247b','')
 	video.loop = true;
 	//video.className = 'full-video'; // 修改类名的方式
-	video.src = 'landscape of qiaowai.mp4';
+	video.src = 'https://ojcoms.github.io/QiaoWai-Project-for-website/landscape of qiaowai.mp4';
 	video.type = 'video/mp4';
 	video.className = 'full-video';
 	var videoWidth;
@@ -72,7 +72,7 @@ load_video();
 load_h1_title("让侨外走进世界","title",0,70);
 var image_train = document.createElement('img');
 image_train.className = 'train';
-image_train.src = "train_.png";
+image_train.src = "https://ojcoms.github.io/QiaoWai-Project-for-website/train_.png";
 image_train.style.left = 0;
 image_train.style.bottom = 0;
 var train_div = document.getElementsByClassName("trainDiv")[0];
@@ -81,7 +81,7 @@ document.querySelector('.train').addEventListener('animationend', function() {
 	var start = document.createElement('img');
 	var scale = 0.5;
 	start.className = "startButton";
-	start.src = "start.png";
+	start.src = "https://ojcoms.github.io/QiaoWai-Project-for-website/start.png";
 	start.style.position = 'relative';
 	start.style.width = 227 * scale + 'px';
 	start.style.height = 99 * scale + 'px';
